@@ -3564,7 +3564,7 @@ configure:8281: $? = 0
 configure:8281: result: yes
 configure:8281: checking for setresuid
 configure:8281: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c  >&5
-/var/tmp//ccZ74h9Q.o: In function `main':
+/var/tmp//cca7GJON.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `setresuid'
 configure:8281: $? = 1
 configure: failed program was:
@@ -3683,7 +3683,7 @@ configure:8281: $? = 0
 configure:8281: result: yes
 configure:8281: checking for setresgid
 configure:8281: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c  >&5
-/var/tmp//ccfMUa4g.o: In function `main':
+/var/tmp//ccC0d7km.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `setresgid'
 configure:8281: $? = 1
 configure: failed program was:
@@ -3830,7 +3830,7 @@ configure:8293: $? = 0
 configure:8293: result: yes
 configure:8293: checking for chsize
 configure:8293: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c  >&5
-/var/tmp//ccXJfsHS.o: In function `main':
+/var/tmp//ccJo4Aqh.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `chsize'
 configure:8293: $? = 1
 configure: failed program was:
@@ -4516,7 +4516,7 @@ configure:8828: $? = 0
 configure:8828: result: yes
 configure:8828: checking for __strtoull
 configure:8828: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c  >&5
-/var/tmp//cc5NY7Om.o: In function `main':
+/var/tmp//cc9Qrnwx.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `__strtoull'
 configure:8828: $? = 1
 configure: failed program was:
@@ -4683,7 +4683,7 @@ configure:8828: $? = 0
 configure:8828: result: yes
 configure:8828: checking for __strtoll
 configure:8828: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c  >&5
-/var/tmp//ccyrHSwZ.o: In function `main':
+/var/tmp//ccZ05zKV.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `__strtoll'
 configure:8828: $? = 1
 configure: failed program was:
@@ -10232,7 +10232,7 @@ configure:9803: $? = 0
 configure:9803: result: yes
 configure:9816: checking for library containing shl_load
 configure:9847: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c  >&5
-/var/tmp//ccB9gFCI.o: In function `main':
+/var/tmp//ccgLTmUm.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `shl_load'
 configure:9847: $? = 1
 configure: failed program was:
@@ -10407,7 +10407,7 @@ configure: failed program was:
 |   return 0;
 | }
 configure:9847: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lsl   >&5
-/var/tmp//cczKVCZb.o: In function `main':
+/var/tmp//ccBxZ2Py.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `shl_load'
 configure:9847: $? = 1
 configure: failed program was:
@@ -10949,7 +10949,7 @@ configure:9874: checking for dl.h
 configure:9874: result: no
 configure:9887: checking for shl_load
 configure:9887: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c  >&5
-/var/tmp//ccWj3hK6.o: In function `main':
+/var/tmp//cc93MjCc.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `shl_load'
 configure:9887: $? = 1
 configure: failed program was:
@@ -11149,7 +11149,7 @@ configure: failed program was:
 configure:9887: result: no
 configure:9887: checking for shl_unload
 configure:9887: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c  >&5
-/var/tmp//ccnxDg1t.o: In function `main':
+/var/tmp//ccJlVnaq.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `shl_unload'
 configure:9887: $? = 1
 configure: failed program was:
@@ -11349,7 +11349,7 @@ configure: failed program was:
 configure:9887: result: no
 configure:9887: checking for shl_findsym
 configure:9887: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c  >&5
-/var/tmp//cc4t4zjy.o: In function `main':
+/var/tmp//ccJWRpGg.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `shl_findsym'
 configure:9887: $? = 1
 configure: failed program was:
@@ -11764,7 +11764,7 @@ configure:9951: $? = 0
 configure:9951: result: yes
 configure:9956: checking for getpassphrase
 configure:9956: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c  >&5
-/var/tmp//ccNgC5Yv.o: In function `main':
+/var/tmp//cchmS8j8.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `getpassphrase'
 configure:9956: $? = 1
 configure: failed program was:
@@ -28421,7 +28421,7 @@ configure: failed program was:
 configure:13360: result: no
 configure:13370: checking for dirfd
 configure:13370: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c    >&5
-/var/tmp//ccOI3nAJ.o: In function `main':
+/var/tmp//ccEfw6MA.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `dirfd'
 configure:13370: $? = 1
 configure: failed program was:
@@ -29322,7 +29322,7 @@ conftest.c: In function 'main':
 conftest.c:269:46: warning: incompatible implicit declaration of built-in function 'exit' [enabled by default]
  main() { setresuid(1,1,1); setresuid(2,2,2); exit(errno==EPERM?0:1);}
                                               ^
-/var/tmp//ccBApmkI.o: In function `main':
+/var/tmp//ccA58zhK.o: In function `main':
 conftest.c:(.text+0x19): undefined reference to `setresuid'
 conftest.c:(.text+0x32): undefined reference to `setresuid'
 configure:13645: $? = 1
@@ -29604,7 +29604,7 @@ conftest.c: In function 'main':
 conftest.c:270:39: warning: incompatible implicit declaration of built-in function 'exit' [enabled by default]
  main() { errno = 0; setresgid(1,1,1); exit(errno != 0 ? (errno==EPERM ? 0 : 1) : 0);}
                                        ^
-/var/tmp//ccqDveNM.o: In function `main':
+/var/tmp//cckGqjIh.o: In function `main':
 conftest.c:(.text+0x24): undefined reference to `setresgid'
 configure:13680: $? = 1
 configure: program exited with status 1
@@ -32553,7 +32553,7 @@ configure: failed program was:
 configure:14161: result: no
 configure:14172: checking for library containing yp_get_default_domain
 configure:14203: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c    >&5
-/var/tmp//ccoWdAX4.o: In function `main':
+/var/tmp//ccSxGR93.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `yp_get_default_domain'
 configure:14203: $? = 1
 configure: failed program was:
@@ -33136,7 +33136,7 @@ configure: failed program was:
 configure:14220: result: no
 configure:14230: checking for yp_get_default_domain
 configure:14230: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c    >&5
-/var/tmp//ccgkxkGh.o: In function `main':
+/var/tmp//ccxvtszX.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `yp_get_default_domain'
 configure:14230: $? = 1
 configure: failed program was:
@@ -33503,7 +33503,7 @@ configure:14259: $? = 0
 configure:14259: result: yes
 configure:14259: checking for mknod64
 configure:14259: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c    >&5
-/var/tmp//cclXxiGP.o: In function `main':
+/var/tmp//cca29fFr.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `mknod64'
 configure:14259: $? = 1
 configure: failed program was:
@@ -33910,7 +33910,7 @@ configure:14307: checking for pipe
 configure:14307: result: yes
 configure:14307: checking for crypt16
 configure:14307: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c    >&5
-/var/tmp//ccBz2adG.o: In function `main':
+/var/tmp//ccwIB2Uz.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `crypt16'
 configure:14307: $? = 1
 configure: failed program was:
@@ -34263,7 +34263,7 @@ configure: failed program was:
 configure:14307: result: no
 configure:14307: checking for getauthuid
 configure:14307: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c    >&5
-/var/tmp//ccE3s8XG.o: In function `main':
+/var/tmp//ccgNpiiz.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `getauthuid'
 configure:14307: $? = 1
 configure: failed program was:
@@ -34660,7 +34660,7 @@ configure:14331: $? = 0
 configure:14331: result: yes
 configure:14331: checking for rdchk
 configure:14331: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c    >&5
-/var/tmp//cc1EG1Od.o: In function `main':
+/var/tmp//cc3h2fxo.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `rdchk'
 configure:14331: $? = 1
 configure: failed program was:
@@ -35041,7 +35041,7 @@ configure:14331: $? = 0
 configure:14331: result: yes
 configure:14343: checking for setpriv
 configure:14343: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c    >&5
-/var/tmp//ccOosbGg.o: In function `main':
+/var/tmp//ccCHUuur.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `setpriv'
 configure:14343: $? = 1
 configure: failed program was:
@@ -35410,7 +35410,7 @@ configure: failed program was:
 configure:14343: result: no
 configure:14343: checking for setgidx
 configure:14343: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c    >&5
-/var/tmp//ccZ96xSm.o: In function `main':
+/var/tmp//ccSJuFg0.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `setgidx'
 configure:14343: $? = 1
 configure: failed program was:
@@ -35779,7 +35779,7 @@ configure: failed program was:
 configure:14343: result: no
 configure:14343: checking for setuidx
 configure:14343: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c    >&5
-/var/tmp//cc0Ioz1Z.o: In function `main':
+/var/tmp//ccc2dlmZ.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `setuidx'
 configure:14343: $? = 1
 configure: failed program was:
@@ -36164,7 +36164,7 @@ configure:14343: checking for chsize
 configure:14343: result: no
 configure:14343: checking for stat64
 configure:14343: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c    >&5
-/var/tmp//ccnuWc80.o: In function `main':
+/var/tmp//ccRJq8lC.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `stat64'
 configure:14343: $? = 1
 configure: failed program was:
@@ -36538,7 +36538,7 @@ configure: failed program was:
 configure:14343: result: no
 configure:14343: checking for fstat64
 configure:14343: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c    >&5
-/var/tmp//cc0rtxUE.o: In function `main':
+/var/tmp//ccQvyF69.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `fstat64'
 configure:14343: $? = 1
 configure: failed program was:
@@ -36912,7 +36912,7 @@ configure: failed program was:
 configure:14343: result: no
 configure:14355: checking for lstat64
 configure:14355: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c    >&5
-/var/tmp//cc8PDatY.o: In function `main':
+/var/tmp//ccRgFHh9.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `lstat64'
 configure:14355: $? = 1
 configure: failed program was:
@@ -37286,7 +37286,7 @@ configure: failed program was:
 configure:14355: result: no
 configure:14355: checking for fopen64
 configure:14355: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c    >&5
-/var/tmp//ccNrUuc6.o: In function `main':
+/var/tmp//ccUQnBvT.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `fopen64'
 configure:14355: $? = 1
 configure: failed program was:
@@ -37672,7 +37672,7 @@ configure:14355: $? = 0
 configure:14355: result: yes
 configure:14355: checking for lseek64
 configure:14355: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c    >&5
-/var/tmp//ccRMgcXh.o: In function `main':
+/var/tmp//ccLMmtOA.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `lseek64'
 configure:14355: $? = 1
 configure: failed program was:
@@ -38049,7 +38049,7 @@ configure: failed program was:
 configure:14355: result: no
 configure:14355: checking for ftruncate64
 configure:14355: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c    >&5
-/var/tmp//ccNtaZR9.o: In function `main':
+/var/tmp//ccUsMrv8.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `ftruncate64'
 configure:14355: $? = 1
 configure: failed program was:
@@ -38426,7 +38426,7 @@ configure: failed program was:
 configure:14355: result: no
 configure:14367: checking for fseek64
 configure:14367: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c    >&5
-/var/tmp//ccDVPd99.o: In function `main':
+/var/tmp//cccBBWCX.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `fseek64'
 configure:14367: $? = 1
 configure: failed program was:
@@ -38803,7 +38803,7 @@ configure: failed program was:
 configure:14367: result: no
 configure:14367: checking for fseeko64
 configure:14367: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c    >&5
-/var/tmp//ccem5gsg.o: In function `main':
+/var/tmp//ccE8qCGt.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `fseeko64'
 configure:14367: $? = 1
 configure: failed program was:
@@ -39180,7 +39180,7 @@ configure: failed program was:
 configure:14367: result: no
 configure:14367: checking for ftell64
 configure:14367: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c    >&5
-/var/tmp//ccddE3ov.o: In function `main':
+/var/tmp//ccBgFyW8.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `ftell64'
 configure:14367: $? = 1
 configure: failed program was:
@@ -39557,7 +39557,7 @@ configure: failed program was:
 configure:14367: result: no
 configure:14367: checking for ftello64
 configure:14367: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c    >&5
-/var/tmp//ccNDTSee.o: In function `main':
+/var/tmp//cc6Lekax.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `ftello64'
 configure:14367: $? = 1
 configure: failed program was:
@@ -39934,7 +39934,7 @@ configure: failed program was:
 configure:14367: result: no
 configure:14367: checking for setluid
 configure:14367: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c    >&5
-/var/tmp//ccbHrcu2.o: In function `main':
+/var/tmp//ccX9sqwC.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `setluid'
 configure:14367: $? = 1
 configure: failed program was:
@@ -40311,7 +40311,7 @@ configure: failed program was:
 configure:14367: result: no
 configure:14367: checking for getpwanam
 configure:14367: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c    >&5
-/var/tmp//ccbyad2g.o: In function `main':
+/var/tmp//ccvMZq2m.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `getpwanam'
 configure:14367: $? = 1
 configure: failed program was:
@@ -40690,7 +40690,7 @@ configure:14367: checking for setlinebuf
 configure:14367: result: yes
 configure:14379: checking for opendir64
 configure:14379: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c    >&5
-/var/tmp//ccGxMmId.o: In function `main':
+/var/tmp//ccvS1gUh.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `opendir64'
 configure:14379: $? = 1
 configure: failed program was:
@@ -41068,7 +41068,7 @@ configure: failed program was:
 configure:14379: result: no
 configure:14379: checking for readdir64
 configure:14379: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c    >&5
-/var/tmp//ccta4TLJ.o: In function `main':
+/var/tmp//cchGU9ET.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `readdir64'
 configure:14379: $? = 1
 configure: failed program was:
@@ -41446,7 +41446,7 @@ configure: failed program was:
 configure:14379: result: no
 configure:14379: checking for seekdir64
 configure:14379: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c    >&5
-/var/tmp//ccd0hy9X.o: In function `main':
+/var/tmp//ccQ6nF44.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `seekdir64'
 configure:14379: $? = 1
 configure: failed program was:
@@ -41824,7 +41824,7 @@ configure: failed program was:
 configure:14379: result: no
 configure:14379: checking for telldir64
 configure:14379: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c    >&5
-/var/tmp//ccNbf08U.o: In function `main':
+/var/tmp//ccB5T4i8.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `telldir64'
 configure:14379: $? = 1
 configure: failed program was:
@@ -42202,7 +42202,7 @@ configure: failed program was:
 configure:14379: result: no
 configure:14379: checking for rewinddir64
 configure:14379: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c    >&5
-/var/tmp//ccajpebw.o: In function `main':
+/var/tmp//cc5ILqhD.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `rewinddir64'
 configure:14379: $? = 1
 configure: failed program was:
@@ -42580,7 +42580,7 @@ configure: failed program was:
 configure:14379: result: no
 configure:14379: checking for closedir64
 configure:14379: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c    >&5
-/var/tmp//ccJNbuu7.o: In function `main':
+/var/tmp//cctwjikL.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `closedir64'
 configure:14379: $? = 1
 configure: failed program was:
@@ -42962,7 +42962,7 @@ configure:14402: checking for getdents
 configure:14402: result: yes
 configure:14402: checking for getdents64
 configure:14402: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c    >&5
-/var/tmp//cc1iPvPH.o: In function `main':
+/var/tmp//ccxnj2cR.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `getdents64'
 configure:14402: $? = 1
 configure: failed program was:
@@ -43361,7 +43361,7 @@ configure:14414: $? = 0
 configure:14414: result: yes
 configure:14414: checking for fcvt
 configure:14414: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c    >&5
-/var/tmp//ccX0krTJ.o: In function `main':
+/var/tmp//ccYd5VB0.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `fcvt'
 configure:14414: $? = 1
 configure: failed program was:
@@ -43748,7 +43748,7 @@ configure: failed program was:
 configure:14414: result: no
 configure:14414: checking for fcvtl
 configure:14414: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c    >&5
-/var/tmp//ccqbPmPC.o: In function `main':
+/var/tmp//ccYgXY0H.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `fcvtl'
 configure:14414: $? = 1
 configure: failed program was:
@@ -44177,7 +44177,7 @@ configure:14461: $? = 0
 configure:14461: result: yes
 configure:14473: checking for memalign
 configure:14473: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c    >&5
-/var/tmp//ccWBWsvS.o: In function `main':
+/var/tmp//ccFwmZ5C.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `memalign'
 configure:14473: $? = 1
 configure: failed program was:
@@ -44592,7 +44592,7 @@ configure:14498: $? = 0
 configure:14498: result: yes
 configure:14498: checking for shm_open
 configure:14498: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c    >&5
-/var/tmp//ccdeh1sG.o: In function `main':
+/var/tmp//cctVCTQX.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `shm_open'
 configure:14498: $? = 1
 configure: failed program was:
@@ -44999,7 +44999,7 @@ configure:14510: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include 
 conftest.c:383:6: warning: conflicting types for built-in function 'gettext' [enabled by default]
  char gettext ();
       ^
-/var/tmp//cc4PrpgB.o: In function `main':
+/var/tmp//ccqzI6hV.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `gettext'
 configure:14510: $? = 1
 configure: failed program was:
@@ -45406,7 +45406,7 @@ configure:14510: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include 
 conftest.c:383:6: warning: conflicting types for built-in function 'dgettext' [enabled by default]
  char dgettext ();
       ^
-/var/tmp//ccKOhOhS.o: In function `main':
+/var/tmp//ccf7lm3k.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `dgettext'
 configure:14510: $? = 1
 configure: failed program was:
@@ -47370,7 +47370,7 @@ configure:14524: checking for libunwind.h
 configure:14524: result: no
 configure:14535: checking for library containing backtrace_symbols
 configure:14566: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c    >&5
-/var/tmp//ccBOf35g.o: In function `main':
+/var/tmp//ccq97JuF.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `backtrace_symbols'
 configure:14566: $? = 1
 configure: failed program was:
@@ -49310,7 +49310,7 @@ configure: failed program was:
 configure:14797: result: no
 configure:14871: checking for _dup
 configure:14871: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lexecinfo    >&5
-/var/tmp//cch0JfnK.o: In function `main':
+/var/tmp//ccBdVN5u.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `_dup'
 configure:14871: $? = 1
 configure: failed program was:
@@ -49716,7 +49716,7 @@ configure: failed program was:
 configure:14871: result: no
 configure:14871: checking for _dup2
 configure:14871: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lexecinfo    >&5
-/var/tmp//cc4ijIkA.o: In function `main':
+/var/tmp//ccFpvloA.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `_dup2'
 configure:14871: $? = 1
 configure: failed program was:
@@ -50142,7 +50142,7 @@ configure:14871: $? = 0
 configure:14871: result: yes
 configure:14883: checking for __dup
 configure:14883: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lexecinfo    >&5
-/var/tmp//ccPwKTIv.o: In function `main':
+/var/tmp//ccRfqTSj.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `__dup'
 configure:14883: $? = 1
 configure: failed program was:
@@ -50553,7 +50553,7 @@ configure: failed program was:
 configure:14883: result: no
 configure:14883: checking for __dup2
 configure:14883: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lexecinfo    >&5
-/var/tmp//ccX18EsK.o: In function `main':
+/var/tmp//cct4xscN.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `__dup2'
 configure:14883: $? = 1
 configure: failed program was:
@@ -50964,7 +50964,7 @@ configure: failed program was:
 configure:14883: result: no
 configure:14883: checking for __opendir
 configure:14883: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lexecinfo    >&5
-/var/tmp//ccV3oUdh.o: In function `main':
+/var/tmp//ccaKmNXW.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `__opendir'
 configure:14883: $? = 1
 configure: failed program was:
@@ -51375,7 +51375,7 @@ configure: failed program was:
 configure:14883: result: no
 configure:14883: checking for __readdir
 configure:14883: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lexecinfo    >&5
-/var/tmp//ccPdolfj.o: In function `main':
+/var/tmp//ccHaCRho.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `__readdir'
 configure:14883: $? = 1
 configure: failed program was:
@@ -51786,7 +51786,7 @@ configure: failed program was:
 configure:14883: result: no
 configure:14883: checking for __seekdir
 configure:14883: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lexecinfo    >&5
-/var/tmp//ccLWBCjH.o: In function `main':
+/var/tmp//cc9WuEGm.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `__seekdir'
 configure:14883: $? = 1
 configure: failed program was:
@@ -52197,7 +52197,7 @@ configure: failed program was:
 configure:14883: result: no
 configure:14883: checking for __telldir
 configure:14883: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lexecinfo    >&5
-/var/tmp//ccxMXjTM.o: In function `main':
+/var/tmp//ccNXhsNY.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `__telldir'
 configure:14883: $? = 1
 configure: failed program was:
@@ -52608,7 +52608,7 @@ configure: failed program was:
 configure:14883: result: no
 configure:14883: checking for __closedir
 configure:14883: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lexecinfo    >&5
-/var/tmp//ccwafeva.o: In function `main':
+/var/tmp//ccdOP9xC.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `__closedir'
 configure:14883: $? = 1
 configure: failed program was:
@@ -53027,7 +53027,7 @@ configure:14895: $? = 0
 configure:14895: result: yes
 configure:14907: checking for __xstat
 configure:14907: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lexecinfo    >&5
-/var/tmp//cciRPy4D.o: In function `main':
+/var/tmp//ccNycQuU.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `__xstat'
 configure:14907: $? = 1
 configure: failed program was:
@@ -53440,7 +53440,7 @@ configure: failed program was:
 configure:14907: result: no
 configure:14907: checking for __fxstat
 configure:14907: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lexecinfo    >&5
-/var/tmp//ccuOtEoE.o: In function `main':
+/var/tmp//ccfQ5iZx.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `__fxstat'
 configure:14907: $? = 1
 configure: failed program was:
@@ -53853,7 +53853,7 @@ configure: failed program was:
 configure:14907: result: no
 configure:14907: checking for __lxstat
 configure:14907: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lexecinfo    >&5
-/var/tmp//ccgDkbid.o: In function `main':
+/var/tmp//ccE0dQ2v.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `__lxstat'
 configure:14907: $? = 1
 configure: failed program was:
@@ -54266,7 +54266,7 @@ configure: failed program was:
 configure:14907: result: no
 configure:14919: checking for _stat
 configure:14919: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lexecinfo    >&5
-/var/tmp//ccCrC9bG.o: In function `main':
+/var/tmp//cc7fMJkl.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `_stat'
 configure:14919: $? = 1
 configure: failed program was:
@@ -54679,7 +54679,7 @@ configure: failed program was:
 configure:14919: result: no
 configure:14919: checking for _lstat
 configure:14919: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lexecinfo    >&5
-/var/tmp//ccUWp3Zt.o: In function `main':
+/var/tmp//ccTm4S9s.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `_lstat'
 configure:14919: $? = 1
 configure: failed program was:
@@ -55092,7 +55092,7 @@ configure: failed program was:
 configure:14919: result: no
 configure:14919: checking for _fstat
 configure:14919: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lexecinfo    >&5
-/var/tmp//cc3Uc9Xe.o: In function `main':
+/var/tmp//ccDflF3o.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `_fstat'
 configure:14919: $? = 1
 configure: failed program was:
@@ -55505,7 +55505,7 @@ configure: failed program was:
 configure:14919: result: no
 configure:14919: checking for __stat
 configure:14919: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lexecinfo    >&5
-/var/tmp//ccHPJ79i.o: In function `main':
+/var/tmp//ccpoabhY.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `__stat'
 configure:14919: $? = 1
 configure: failed program was:
@@ -55918,7 +55918,7 @@ configure: failed program was:
 configure:14919: result: no
 configure:14919: checking for __lstat
 configure:14919: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lexecinfo    >&5
-/var/tmp//ccI93QoB.o: In function `main':
+/var/tmp//ccvqq441.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `__lstat'
 configure:14919: $? = 1
 configure: failed program was:
@@ -56331,7 +56331,7 @@ configure: failed program was:
 configure:14919: result: no
 configure:14919: checking for __fstat
 configure:14919: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lexecinfo    >&5
-/var/tmp//ccFSfKry.o: In function `main':
+/var/tmp//cc9W3VZ4.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `__fstat'
 configure:14919: $? = 1
 configure: failed program was:
@@ -56744,7 +56744,7 @@ configure: failed program was:
 configure:14919: result: no
 configure:14931: checking for _acl
 configure:14931: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lexecinfo    >&5
-/var/tmp//cchg65Q4.o: In function `main':
+/var/tmp//ccWykAL8.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `_acl'
 configure:14931: $? = 1
 configure: failed program was:
@@ -57157,7 +57157,7 @@ configure: failed program was:
 configure:14931: result: no
 configure:14931: checking for __acl
 configure:14931: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lexecinfo    >&5
-/var/tmp//ccH6TkAv.o: In function `main':
+/var/tmp//ccnbXYAV.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `__acl'
 configure:14931: $? = 1
 configure: failed program was:
@@ -57570,7 +57570,7 @@ configure: failed program was:
 configure:14931: result: no
 configure:14931: checking for _facl
 configure:14931: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lexecinfo    >&5
-/var/tmp//ccLXqyYQ.o: In function `main':
+/var/tmp//ccPgcjc2.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `_facl'
 configure:14931: $? = 1
 configure: failed program was:
@@ -57983,7 +57983,7 @@ configure: failed program was:
 configure:14931: result: no
 configure:14931: checking for __facl
 configure:14931: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lexecinfo    >&5
-/var/tmp//ccOQrW8w.o: In function `main':
+/var/tmp//ccjwmjUy.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `__facl'
 configure:14931: $? = 1
 configure: failed program was:
@@ -58400,7 +58400,7 @@ configure:14931: $? = 0
 configure:14931: result: yes
 configure:14931: checking for __open
 configure:14931: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lexecinfo    >&5
-/var/tmp//ccSvgK9S.o: In function `main':
+/var/tmp//ccfYz2p6.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `__open'
 configure:14931: $? = 1
 configure: failed program was:
@@ -58814,7 +58814,7 @@ configure: failed program was:
 configure:14931: result: no
 configure:14931: checking for _chdir
 configure:14931: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lexecinfo    >&5
-/var/tmp//ccTCLSJw.o: In function `main':
+/var/tmp//ccTmn5QN.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `_chdir'
 configure:14931: $? = 1
 configure: failed program was:
@@ -59228,7 +59228,7 @@ configure: failed program was:
 configure:14931: result: no
 configure:14931: checking for __chdir
 configure:14931: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lexecinfo    >&5
-/var/tmp//ccZMCvi0.o: In function `main':
+/var/tmp//ccBmWU0d.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `__chdir'
 configure:14931: $? = 1
 configure: failed program was:
@@ -59646,7 +59646,7 @@ configure:14943: $? = 0
 configure:14943: result: yes
 configure:14943: checking for __close
 configure:14943: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lexecinfo    >&5
-/var/tmp//ccrDq7QO.o: In function `main':
+/var/tmp//ccIfIzTB.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `__close'
 configure:14943: $? = 1
 configure: failed program was:
@@ -60061,7 +60061,7 @@ configure: failed program was:
 configure:14943: result: no
 configure:14943: checking for _fchdir
 configure:14943: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lexecinfo    >&5
-/var/tmp//ccOq0DjF.o: In function `main':
+/var/tmp//ccUYNqfL.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `_fchdir'
 configure:14943: $? = 1
 configure: failed program was:
@@ -60476,7 +60476,7 @@ configure: failed program was:
 configure:14943: result: no
 configure:14943: checking for __fchdir
 configure:14943: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lexecinfo    >&5
-/var/tmp//cceE7oVL.o: In function `main':
+/var/tmp//cchGyXwC.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `__fchdir'
 configure:14943: $? = 1
 configure: failed program was:
@@ -60895,7 +60895,7 @@ configure:14943: $? = 0
 configure:14943: result: yes
 configure:14943: checking for __fcntl
 configure:14943: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lexecinfo    >&5
-/var/tmp//ccwZArhb.o: In function `main':
+/var/tmp//ccyNrgAu.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `__fcntl'
 configure:14943: $? = 1
 configure: failed program was:
@@ -61313,7 +61313,7 @@ configure:14955: checking for getdents
 configure:14955: result: yes
 configure:14955: checking for __getdents
 configure:14955: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lexecinfo    >&5
-/var/tmp//ccNF1Ikf.o: In function `main':
+/var/tmp//ccjSqmIr.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `__getdents'
 configure:14955: $? = 1
 configure: failed program was:
@@ -61742,7 +61742,7 @@ configure:14955: $? = 0
 configure:14955: result: yes
 configure:14955: checking for __read
 configure:14955: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lexecinfo    >&5
-/var/tmp//cc6rYnal.o: In function `main':
+/var/tmp//cceslDDB.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `__read'
 configure:14955: $? = 1
 configure: failed program was:
@@ -62168,7 +62168,7 @@ configure:14967: $? = 0
 configure:14967: result: yes
 configure:14967: checking for __write
 configure:14967: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lexecinfo    >&5
-/var/tmp//ccqdiO1D.o: In function `main':
+/var/tmp//ccvzfRGh.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `__write'
 configure:14967: $? = 1
 configure: failed program was:
@@ -62598,7 +62598,7 @@ configure:14967: $? = 0
 configure:14967: result: yes
 configure:14979: checking for _stat64
 configure:14979: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lexecinfo    >&5
-/var/tmp//cc3b4Gt2.o: In function `main':
+/var/tmp//ccDe5vov.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `_stat64'
 configure:14979: $? = 1
 configure: failed program was:
@@ -63022,7 +63022,7 @@ configure: failed program was:
 configure:14979: result: no
 configure:14979: checking for __stat64
 configure:14979: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lexecinfo    >&5
-/var/tmp//ccoGHlqE.o: In function `main':
+/var/tmp//ccHfW0SR.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `__stat64'
 configure:14979: $? = 1
 configure: failed program was:
@@ -63446,7 +63446,7 @@ configure: failed program was:
 configure:14979: result: no
 configure:14979: checking for _fstat64
 configure:14979: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lexecinfo    >&5
-/var/tmp//ccMytAYB.o: In function `main':
+/var/tmp//ccJ5UV4t.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `_fstat64'
 configure:14979: $? = 1
 configure: failed program was:
@@ -63870,7 +63870,7 @@ configure: failed program was:
 configure:14979: result: no
 configure:14979: checking for __fstat64
 configure:14979: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lexecinfo    >&5
-/var/tmp//ccutML7k.o: In function `main':
+/var/tmp//cc0vEf4t.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `__fstat64'
 configure:14979: $? = 1
 configure: failed program was:
@@ -64294,7 +64294,7 @@ configure: failed program was:
 configure:14979: result: no
 configure:14979: checking for _lstat64
 configure:14979: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lexecinfo    >&5
-/var/tmp//ccwz6PtN.o: In function `main':
+/var/tmp//cccORGxq.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `_lstat64'
 configure:14979: $? = 1
 configure: failed program was:
@@ -64718,7 +64718,7 @@ configure: failed program was:
 configure:14979: result: no
 configure:14979: checking for __lstat64
 configure:14979: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lexecinfo    >&5
-/var/tmp//ccckL9oz.o: In function `main':
+/var/tmp//ccIeMdLJ.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `__lstat64'
 configure:14979: $? = 1
 configure: failed program was:
@@ -65142,7 +65142,7 @@ configure: failed program was:
 configure:14979: result: no
 configure:14991: checking for __sys_llseek
 configure:14991: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lexecinfo    >&5
-/var/tmp//cct2mKeI.o: In function `main':
+/var/tmp//ccbnVkMW.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `__sys_llseek'
 configure:14991: $? = 1
 configure: failed program was:
@@ -65566,7 +65566,7 @@ configure: failed program was:
 configure:14991: result: no
 configure:14991: checking for llseek
 configure:14991: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lexecinfo    >&5
-/var/tmp//ccdyCdil.o: In function `main':
+/var/tmp//ccx9Xga0.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `llseek'
 configure:14991: $? = 1
 configure: failed program was:
@@ -65990,7 +65990,7 @@ configure: failed program was:
 configure:14991: result: no
 configure:14991: checking for _llseek
 configure:14991: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lexecinfo    >&5
-/var/tmp//cc0UKTVm.o: In function `main':
+/var/tmp//cc2nrGtA.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `_llseek'
 configure:14991: $? = 1
 configure: failed program was:
@@ -66414,7 +66414,7 @@ configure: failed program was:
 configure:14991: result: no
 configure:14991: checking for __llseek
 configure:14991: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lexecinfo    >&5
-/var/tmp//ccwu0Vrm.o: In function `main':
+/var/tmp//ccFXujoa.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `__llseek'
 configure:14991: $? = 1
 configure: failed program was:
@@ -66840,7 +66840,7 @@ configure:14991: checking for readdir64
 configure:14991: result: no
 configure:14991: checking for _readdir64
 configure:14991: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lexecinfo    >&5
-/var/tmp//ccinW5eN.o: In function `main':
+/var/tmp//ccO6WA1j.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `_readdir64'
 configure:14991: $? = 1
 configure: failed program was:
@@ -67264,7 +67264,7 @@ configure: failed program was:
 configure:14991: result: no
 configure:14991: checking for __readdir64
 configure:14991: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lexecinfo    >&5
-/var/tmp//cc37fLcK.o: In function `main':
+/var/tmp//ccU1ffSm.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `__readdir64'
 configure:14991: $? = 1
 configure: failed program was:
@@ -67698,7 +67698,7 @@ configure:15003: $? = 0
 configure:15003: result: yes
 configure:15003: checking for pread64
 configure:15003: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lexecinfo    >&5
-/var/tmp//ccVupdDp.o: In function `main':
+/var/tmp//ccC3yyPZ.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `pread64'
 configure:15003: $? = 1
 configure: failed program was:
@@ -68125,7 +68125,7 @@ configure: failed program was:
 configure:15003: result: no
 configure:15003: checking for _pread64
 configure:15003: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lexecinfo    >&5
-/var/tmp//cczKa18L.o: In function `main':
+/var/tmp//ccItglC0.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `_pread64'
 configure:15003: $? = 1
 configure: failed program was:
@@ -68552,7 +68552,7 @@ configure: failed program was:
 configure:15003: result: no
 configure:15003: checking for __pread64
 configure:15003: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lexecinfo    >&5
-/var/tmp//ccVtpX8j.o: In function `main':
+/var/tmp//ccK1kfJi.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `__pread64'
 configure:15003: $? = 1
 configure: failed program was:
@@ -68989,7 +68989,7 @@ configure:15015: $? = 0
 configure:15015: result: yes
 configure:15015: checking for pwrite64
 configure:15015: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lexecinfo    >&5
-/var/tmp//ccesUv1H.o: In function `main':
+/var/tmp//ccUkm8DY.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `pwrite64'
 configure:15015: $? = 1
 configure: failed program was:
@@ -69419,7 +69419,7 @@ configure: failed program was:
 configure:15015: result: no
 configure:15015: checking for _pwrite64
 configure:15015: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lexecinfo    >&5
-/var/tmp//cchAMABu.o: In function `main':
+/var/tmp//ccy3lpnn.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `_pwrite64'
 configure:15015: $? = 1
 configure: failed program was:
@@ -69849,7 +69849,7 @@ configure: failed program was:
 configure:15015: result: no
 configure:15015: checking for __pwrite64
 configure:15015: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lexecinfo    >&5
-/var/tmp//ccDGyKdh.o: In function `main':
+/var/tmp//ccP2KzLE.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `__pwrite64'
 configure:15015: $? = 1
 configure: failed program was:
@@ -70279,7 +70279,7 @@ configure: failed program was:
 configure:15015: result: no
 configure:15027: checking for open64
 configure:15027: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lexecinfo    >&5
-/var/tmp//ccpAMnNf.o: In function `main':
+/var/tmp//cci757EQ.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `open64'
 configure:15027: $? = 1
 configure: failed program was:
@@ -70709,7 +70709,7 @@ configure: failed program was:
 configure:15027: result: no
 configure:15027: checking for _open64
 configure:15027: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lexecinfo    >&5
-/var/tmp//ccKOEZvF.o: In function `main':
+/var/tmp//ccMAdZSi.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `_open64'
 configure:15027: $? = 1
 configure: failed program was:
@@ -71139,7 +71139,7 @@ configure: failed program was:
 configure:15027: result: no
 configure:15027: checking for __open64
 configure:15027: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lexecinfo    >&5
-/var/tmp//ccl71qH2.o: In function `main':
+/var/tmp//ccMIVVi1.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `__open64'
 configure:15027: $? = 1
 configure: failed program was:
@@ -71569,7 +71569,7 @@ configure: failed program was:
 configure:15027: result: no
 configure:15027: checking for creat64
 configure:15027: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lexecinfo    >&5
-/var/tmp//ccEm7qD9.o: In function `main':
+/var/tmp//cc1srTSY.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `creat64'
 configure:15027: $? = 1
 configure: failed program was:
@@ -71999,7 +71999,7 @@ configure: failed program was:
 configure:15027: result: no
 configure:15038: checking for prctl
 configure:15038: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lexecinfo    >&5
-/var/tmp//ccz2z6ai.o: In function `main':
+/var/tmp//ccNa99jO.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `prctl'
 configure:15038: $? = 1
 configure: failed program was:
@@ -75025,7 +75025,7 @@ configure:15803: $? = 0
 configure:15812: result: yes
 configure:15823: checking for __dn_expand in -lresolv
 configure:15848: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lresolv  -lresolv -lresolv -lexecinfo    >&5
-/var/tmp//cc31udqt.o: In function `main':
+/var/tmp//ccmBvUPP.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `__dn_expand'
 configure:15848: $? = 1
 configure: failed program was:
@@ -75450,7 +75450,7 @@ configure: failed program was:
 configure:15857: result: no
 configure:15878: checking for putprpwnam
 configure:15878: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lresolv -lresolv -lexecinfo    >&5
-/var/tmp//cc7mUJZm.o: In function `main':
+/var/tmp//ccaXAY6j.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `putprpwnam'
 configure:15878: $? = 1
 configure: failed program was:
@@ -76748,7 +76748,7 @@ configure: failed program was:
 configure:16029: result: no
 configure:16061: checking for set_auth_parameters
 configure:16061: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lresolv -lresolv -lexecinfo    >&5
-/var/tmp//cc0c8KCC.o: In function `main':
+/var/tmp//ccmi2mOU.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `set_auth_parameters'
 configure:16061: $? = 1
 configure: failed program was:
@@ -78046,7 +78046,7 @@ configure: failed program was:
 configure:16212: result: no
 configure:16245: checking for getspnam
 configure:16245: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lresolv -lresolv -lexecinfo    >&5
-/var/tmp//ccj9KArd.o: In function `main':
+/var/tmp//ccCeAkIi.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `getspnam'
 configure:16245: $? = 1
 configure: failed program was:
@@ -79770,7 +79770,7 @@ configure: failed program was:
 configure:16488: result: no
 configure:16520: checking for bigcrypt
 configure:16520: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lresolv -lresolv -lexecinfo    >&5
-/var/tmp//ccdaBJCk.o: In function `main':
+/var/tmp//ccLqIAbP.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `bigcrypt'
 configure:16520: $? = 1
 configure: failed program was:
@@ -81068,7 +81068,7 @@ configure: failed program was:
 configure:16671: result: no
 configure:16703: checking for getprpwnam
 configure:16703: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lresolv -lresolv -lexecinfo    >&5
-/var/tmp//ccgbuSMM.o: In function `main':
+/var/tmp//ccsWxIgs.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `getprpwnam'
 configure:16703: $? = 1
 configure: failed program was:
@@ -82394,7 +82394,7 @@ configure:17051: $? = 0
 configure:17051: result: yes
 configure:17063: checking for getea
 configure:17063: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lresolv -lresolv -lexecinfo    >&5
-/var/tmp//ccyuEbfm.o: In function `main':
+/var/tmp//ccQlxdRQ.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `getea'
 configure:17063: $? = 1
 configure: failed program was:
@@ -82848,7 +82848,7 @@ configure: failed program was:
 configure:17063: result: no
 configure:17063: checking for fgetea
 configure:17063: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lresolv -lresolv -lexecinfo    >&5
-/var/tmp//ccmUn4DX.o: In function `main':
+/var/tmp//ccnyIbfg.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `fgetea'
 configure:17063: $? = 1
 configure: failed program was:
@@ -83302,7 +83302,7 @@ configure: failed program was:
 configure:17063: result: no
 configure:17063: checking for lgetea
 configure:17063: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lresolv -lresolv -lexecinfo    >&5
-/var/tmp//ccmOemEh.o: In function `main':
+/var/tmp//cccCteDX.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `lgetea'
 configure:17063: $? = 1
 configure: failed program was:
@@ -83756,7 +83756,7 @@ configure: failed program was:
 configure:17063: result: no
 configure:17063: checking for listea
 configure:17063: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lresolv -lresolv -lexecinfo    >&5
-/var/tmp//cckzfvc8.o: In function `main':
+/var/tmp//ccVAFclH.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `listea'
 configure:17063: $? = 1
 configure: failed program was:
@@ -84210,7 +84210,7 @@ configure: failed program was:
 configure:17063: result: no
 configure:17063: checking for flistea
 configure:17063: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lresolv -lresolv -lexecinfo    >&5
-/var/tmp//cc2gYAky.o: In function `main':
+/var/tmp//cchEfqtd.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `flistea'
 configure:17063: $? = 1
 configure: failed program was:
@@ -84664,7 +84664,7 @@ configure: failed program was:
 configure:17063: result: no
 configure:17063: checking for llistea
 configure:17063: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lresolv -lresolv -lexecinfo    >&5
-/var/tmp//ccV3LVE4.o: In function `main':
+/var/tmp//ccJakK90.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `llistea'
 configure:17063: $? = 1
 configure: failed program was:
@@ -85118,7 +85118,7 @@ configure: failed program was:
 configure:17063: result: no
 configure:17075: checking for removeea
 configure:17075: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lresolv -lresolv -lexecinfo    >&5
-/var/tmp//ccns5v3I.o: In function `main':
+/var/tmp//ccVGWj6N.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `removeea'
 configure:17075: $? = 1
 configure: failed program was:
@@ -85572,7 +85572,7 @@ configure: failed program was:
 configure:17075: result: no
 configure:17075: checking for fremoveea
 configure:17075: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lresolv -lresolv -lexecinfo    >&5
-/var/tmp//cc8Lh4P0.o: In function `main':
+/var/tmp//cc3vkggZ.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `fremoveea'
 configure:17075: $? = 1
 configure: failed program was:
@@ -86026,7 +86026,7 @@ configure: failed program was:
 configure:17075: result: no
 configure:17075: checking for lremoveea
 configure:17075: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lresolv -lresolv -lexecinfo    >&5
-/var/tmp//ccOe8K1e.o: In function `main':
+/var/tmp//ccdmjJam.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `lremoveea'
 configure:17075: $? = 1
 configure: failed program was:
@@ -86480,7 +86480,7 @@ configure: failed program was:
 configure:17075: result: no
 configure:17075: checking for setea
 configure:17075: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lresolv -lresolv -lexecinfo    >&5
-/var/tmp//ccWC8rm8.o: In function `main':
+/var/tmp//ccFWoMcc.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `setea'
 configure:17075: $? = 1
 configure: failed program was:
@@ -86934,7 +86934,7 @@ configure: failed program was:
 configure:17075: result: no
 configure:17075: checking for fsetea
 configure:17075: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lresolv -lresolv -lexecinfo    >&5
-/var/tmp//ccf8c6Xe.o: In function `main':
+/var/tmp//ccYMF1QB.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `fsetea'
 configure:17075: $? = 1
 configure: failed program was:
@@ -87388,7 +87388,7 @@ configure: failed program was:
 configure:17075: result: no
 configure:17075: checking for lsetea
 configure:17075: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lresolv -lresolv -lexecinfo    >&5
-/var/tmp//ccbWW045.o: In function `main':
+/var/tmp//ccp9JRhF.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `lsetea'
 configure:17075: $? = 1
 configure: failed program was:
@@ -87870,7 +87870,7 @@ configure:17099: $? = 0
 configure:17099: result: yes
 configure:17111: checking for attr_get
 configure:17111: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lresolv -lresolv -lexecinfo    >&5
-/var/tmp//ccyRBRVA.o: In function `main':
+/var/tmp//cciXhJUC.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `attr_get'
 configure:17111: $? = 1
 configure: failed program was:
@@ -88331,7 +88331,7 @@ configure: failed program was:
 configure:17111: result: no
 configure:17111: checking for attr_list
 configure:17111: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lresolv -lresolv -lexecinfo    >&5
-/var/tmp//ccHmd7ob.o: In function `main':
+/var/tmp//ccYmD2iq.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `attr_list'
 configure:17111: $? = 1
 configure: failed program was:
@@ -88792,7 +88792,7 @@ configure: failed program was:
 configure:17111: result: no
 configure:17111: checking for attr_set
 configure:17111: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lresolv -lresolv -lexecinfo    >&5
-/var/tmp//cczjdIIJ.o: In function `main':
+/var/tmp//cct85MKg.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `attr_set'
 configure:17111: $? = 1
 configure: failed program was:
@@ -89253,7 +89253,7 @@ configure: failed program was:
 configure:17111: result: no
 configure:17111: checking for attr_remove
 configure:17111: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lresolv -lresolv -lexecinfo    >&5
-/var/tmp//cchbpGnl.o: In function `main':
+/var/tmp//ccDZ0N3A.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `attr_remove'
 configure:17111: $? = 1
 configure: failed program was:
@@ -89714,7 +89714,7 @@ configure: failed program was:
 configure:17111: result: no
 configure:17123: checking for attr_getf
 configure:17123: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lresolv -lresolv -lexecinfo    >&5
-/var/tmp//ccHjk6GB.o: In function `main':
+/var/tmp//ccm4Gc9u.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `attr_getf'
 configure:17123: $? = 1
 configure: failed program was:
@@ -90175,7 +90175,7 @@ configure: failed program was:
 configure:17123: result: no
 configure:17123: checking for attr_listf
 configure:17123: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lresolv -lresolv -lexecinfo    >&5
-/var/tmp//cc4EovNU.o: In function `main':
+/var/tmp//cccRqo4A.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `attr_listf'
 configure:17123: $? = 1
 configure: failed program was:
@@ -90636,7 +90636,7 @@ configure: failed program was:
 configure:17123: result: no
 configure:17123: checking for attr_setf
 configure:17123: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lresolv -lresolv -lexecinfo    >&5
-/var/tmp//ccdQmWXD.o: In function `main':
+/var/tmp//ccRLpfL1.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `attr_setf'
 configure:17123: $? = 1
 configure: failed program was:
@@ -91097,7 +91097,7 @@ configure: failed program was:
 configure:17123: result: no
 configure:17123: checking for attr_removef
 configure:17123: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  conftest.c -lresolv -lresolv -lexecinfo    >&5
-/var/tmp//ccFuR0AT.o: In function `main':
+/var/tmp//ccXbaR3A.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `attr_removef'
 configure:17123: $? = 1
 configure: failed program was:
@@ -95397,7 +95397,7 @@ configure:18930: $? = 0
 configure:18937: result: yes
 configure:18952: checking for pututline
 configure:18952: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  -L./bin conftest.c -lresolv -lresolv -lexecinfo    >&5
-/var/tmp//ccn7SUTh.o: In function `main':
+/var/tmp//cc1XCb8p.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `pututline'
 configure:18952: $? = 1
 configure: failed program was:
@@ -95890,7 +95890,7 @@ configure:18952: $? = 0
 configure:18952: result: yes
 configure:18952: checking for updwtmp
 configure:18952: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt  -L./bin conftest.c -lresolv -lresolv -lexecinfo    >&5
-/var/tmp//cc98NvZZ.o: In function `main':
+/var/tmp//ccsZmj9D.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `updwtmp'
 configure:18952: $? = 1
 configure: failed program was:
@@ -104949,7 +104949,7 @@ configure:19972: checking for sys/inotify.h
 configure:19972: result: no
 configure:19984: checking for inotify_init
 configure:19984: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt -I/usr/include  -L./bin -L/usr/lib conftest.c -lresolv -lresolv -lexecinfo    >&5
-/var/tmp//cc18daZz.o: In function `main':
+/var/tmp//cc9SVGSe.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `inotify_init'
 configure:19984: $? = 1
 configure: failed program was:
@@ -118619,7 +118619,7 @@ configure:28473: checking whether to use pam_smbpass
 configure:28501: result: no
 configure:28510: checking for library containing crypt
 configure:28541: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt -I/usr/include  -L./bin -L/usr/lib conftest.c -lresolv -lresolv -lexecinfo    >&5
-/var/tmp//ccVU4DZ1.o: In function `main':
+/var/tmp//ccVdmy6p.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `crypt'
 configure:28541: $? = 1
 configure: failed program was:
@@ -124573,7 +124573,7 @@ configure:29159: checking for mntent.h
 configure:29159: result: no
 configure:29174: checking for setmntent
 configure:29174: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt -I/usr/include  -L./bin -L/usr/lib conftest.c -lcrypt -lresolv -lresolv -lexecinfo    >&5
-/var/tmp//ccVx38Xh.o: In function `main':
+/var/tmp//cc0IV8hB.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `setmntent'
 configure:29174: $? = 1
 configure: failed program was:
@@ -125087,7 +125087,7 @@ configure: failed program was:
 configure:29174: result: no
 configure:29174: checking for getmntent
 configure:29174: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt -I/usr/include  -L./bin -L/usr/lib conftest.c -lcrypt -lresolv -lresolv -lexecinfo    >&5
-/var/tmp//ccZc7NLF.o: In function `main':
+/var/tmp//ccxtWin4.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `getmntent'
 configure:29174: $? = 1
 configure: failed program was:
@@ -125601,7 +125601,7 @@ configure: failed program was:
 configure:29174: result: no
 configure:29174: checking for endmntent
 configure:29174: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt -I/usr/include  -L./bin -L/usr/lib conftest.c -lcrypt -lresolv -lresolv -lexecinfo    >&5
-/var/tmp//ccp0BY4Q.o: In function `main':
+/var/tmp//ccOaugYn.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `endmntent'
 configure:29174: $? = 1
 configure: failed program was:
@@ -127108,7 +127108,7 @@ configure:29188: checking for devnm.h
 configure:29188: result: no
 configure:29202: checking for devnm
 configure:29202: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt -I/usr/include  -L./bin -L/usr/lib conftest.c -lcrypt -lresolv -lresolv -lexecinfo    >&5
-/var/tmp//ccJSTGJq.o: In function `main':
+/var/tmp//ccsYcPQW.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `devnm'
 configure:29202: $? = 1
 configure: failed program was:
@@ -132666,7 +132666,7 @@ configure:31500: checking whether to check to support sendfile
 configure:31508: result: yes
 configure:32074: checking for Linux readahead
 configure:32095: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt -I/usr/include  -L./bin -L/usr/lib conftest.c -lcrypt -lresolv -lresolv -lexecinfo    >&5
-/var/tmp//ccjrlkKl.o: In function `main':
+/var/tmp//ccI1Kszq.o: In function `main':
 conftest.c:(.text+0x19): undefined reference to `readahead'
 configure:32095: $? = 1
 configure: failed program was:
@@ -133661,7 +133661,7 @@ configure:32170: $? = 0
 configure:32178: result: yes
 configure:32190: checking for Linux splice
 configure:32211: gcc -o conftest -O -O -D_SAMBA_BUILD_=3  -Iinclude -I./include  -I. -I. -I./lib/replace -I./lib/talloc -I./lib/tdb/include -I./libaddns -I./librpc -I./popt -I/usr/include  -L./bin -L/usr/lib conftest.c -lcrypt -lresolv -lresolv -lexecinfo    >&5
-/var/tmp//ccHx7RM3.o: In function `main':
+/var/tmp//ccOrMSRD.o: In function `main':
 conftest.c:(.text+0x2a): undefined reference to `splice'
 configure:32211: $? = 1
 configure: failed program was:
@@ -145393,7 +145393,7 @@ build_alias=''
 build_cpu='x86_64'
 build_os='netbsd7.0'
 build_vendor='unknown'
-builddir='/mnt/work/oss/samba-3.3/source'
+builddir='/mnt/work/fxsdk/samba-3.3/source'
 cachedir='${LOCKDIR}'
 codepagedir='${MODULESDIR}'
 configdir='${exec_prefix}/lib'

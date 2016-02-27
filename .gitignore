@@ -1,5 +1,4 @@
-# Object files
-*.o
-
-# Libraries
+# Libraries & Object files
+*.so
 *.a
+*.o
