@@ -82,8 +82,8 @@ UNINSTALLLIBCMD_SH=rm -f
 UNINSTALLLIBCMD_A=:
 
 
-srcdir=/mnt/work/fxsdk/samba-3.3/source
-builddir=/mnt/work/fxsdk/samba-3.3/source
+srcdir=/mnt/hdd1/fxsdk/samba-3.3/source
+builddir=/mnt/hdd1/fxsdk/samba-3.3/source
 SHELL=/bin/sh
 DESTDIR=/
 

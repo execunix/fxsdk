@@ -1,4 +1,6 @@
 # Libraries & Object files
+#/out*
+bin/
 *.so
 *.a
 *.o

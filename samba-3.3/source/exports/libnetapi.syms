@@ -3,7 +3,7 @@
 #
 {
 	global:
-		# The following definitions come from /mnt/work/fxsdk/samba-3.3/source/lib/netapi/netapi.h
+		# The following definitions come from /mnt/hdd1/fxsdk/samba-3.3/source/lib/netapi/netapi.h
 		libnetapi_init;
 		libnetapi_free;
 		libnetapi_getctx;

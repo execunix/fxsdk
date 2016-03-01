@@ -4,9 +4,9 @@
 #define _BUILD_ENV_H
 
 #define BUILD_ENV_UNAME "NetBSD xmtbsdv1.execunix.net 7.0 NetBSD 7.0 (GENERIC) #0: Thu Feb 25 00:11:14 KST 2016  execunix@xmtlinux1:/mnt/hdd1/tmp/mnt/hdd1/vinos/sys/arch/amd64/compile/GENERIC amd64"
-#define BUILD_ENV_DATE "Sun Feb 28 00:16:51 KST 2016"
-#define BUILD_ENV_SRCDIR "/mnt/work/fxsdk/samba-3.3/source"
-#define BUILD_ENV_BUILDDIR "/mnt/work/fxsdk/samba-3.3/source"
+#define BUILD_ENV_DATE "Sun Feb 28 06:25:17 KST 2016"
+#define BUILD_ENV_SRCDIR "/mnt/hdd1/fxsdk/samba-3.3/source"
+#define BUILD_ENV_BUILDDIR "/mnt/hdd1/fxsdk/samba-3.3/source"
 #define BUILD_ENV_USER "execunix"
 #define BUILD_ENV_HOST "xmtbsdv1.execunix.net"
 #define BUILD_ENV_COMPILER "gcc"

@@ -1,16 +1,17 @@
 #!/bin/sh
 
 # cd /mnt
-# mkdir work
-# mkdir hdd1
-# chown execunix:users work hdd1
+# mkdir work hdd1
+# chown execunix:users *
+# scp -rp execunix@192.168.5.1:/mnt/hdd1/conf work
+# cp /mnt/hdd1/conf/NanumFont/* /usr/X11R7/lib/X11/fonts/TTF
 # vi /etc/fstab
 # vi /etc/hosts
 # vi /etc/rc.conf
-# vi /etc/X11/xinit/xinit.rc
+# vi /etc/X11/xinit/xinitrc
 # vi /root/.profile
 # reboot
-# cd /mnt/hdd1/sys
+# cd /mnt/work/conf
 # ./bsdv1sysconf.sh
 
 echo ===
@@ -49,7 +50,6 @@ else
 # chsh -s bash execunix
 # ln -s /usr/pkg/bin/bash /bin/bash
 # cp -vp /usr/pkg/share/examples/rc.d/* /etc/rc.d
-# cp /usr/pkg/etc/samba/smb.conf /usr/pkg/etc/samba/smb.conf~0
 # vi /usr/pkg/etc/samba/smb.conf
 # reboot
 # smbpasswd -a execunix

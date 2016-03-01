@@ -3,7 +3,7 @@
 #
 {
 	global:
-		# The following definitions come from /mnt/work/fxsdk/samba-3.3/source/lib/tdb/include/tdb.h
+		# The following definitions come from /mnt/hdd1/fxsdk/samba-3.3/source/lib/tdb/include/tdb.h
 		tdb_open;
 		tdb_open_ex;
 		tdb_set_max_dead;

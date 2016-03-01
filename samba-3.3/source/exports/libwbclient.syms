@@ -3,7 +3,7 @@
 #
 {
 	global:
-		# The following definitions come from /mnt/work/fxsdk/samba-3.3/source/nsswitch/libwbclient/wbclient.h
+		# The following definitions come from /mnt/hdd1/fxsdk/samba-3.3/source/nsswitch/libwbclient/wbclient.h
 		wbcErrorString;
 		wbcFreeMemory;
 		wbcSidToString;
