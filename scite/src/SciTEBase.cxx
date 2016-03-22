@@ -4631,7 +4631,7 @@ bool SciTEBase::ProcessCommandLine(GUI::gui_string &args, int phase) {
 				performPrint = true;
 			} else if (GUI::gui_string(arg) == GUI_TEXT("grep") && (wlArgs.size() - i >= 4)) {
 				// in form -grep [w~][c~][d~][b~] "<file-patterns>" "<search-string>"
-				#if 1
+				#if 0
 				int n = 0;
 				char buf[1024];
 				int argc = 0;

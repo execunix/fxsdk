@@ -322,6 +322,17 @@ grep_main(int argc, char *argv[])
 	/* Check what is the program name of the binary.  In this
 	   way we can have all the funcionalities in one binary
 	   without the need of scripting and using ugly hacks. */
+#if 1
+	grepbehave = GREP_BASIC;	/* -EFGP: type of the regex */
+	binbehave = BINFILE_SKIP;	/* -aIU: handling of binary files */
+	filebehave = FILE_STDIO;	/* -JZ: normal, gzip or bzip2 file */
+	devbehave = DEV_READ;		/* -D: handling of devices */
+	dirbehave = DIR_READ;		/* -dRr: handling of directories */
+	linkbehave = LINK_SKIP;		/* -OpS: handling of symlinks */
+
+	dexclude = true;
+	add_dpattern(".git"/*optarg*/, EXCL_PAT);
+#else
 	switch (__progname[0]) {
 	case 'e':
 		grepbehave = GREP_EXTENDED;
@@ -347,13 +358,14 @@ grep_main(int argc, char *argv[])
 		}
 		break;
 	}
+#endif
 
 	lastc = '\0';
 	newarg = 1;
 	prevoptind = 1;
 	needpattern = 1;
 
-	eopts = getenv("GREP_OPTIONS");
+	eopts = NULL;//getenv("GREP_OPTIONS");
 
 	/* support for extra arguments in GREP_OPTIONS */
 	eargc = 0;
