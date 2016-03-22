@@ -2124,8 +2124,12 @@ void SciTEGTK::FindInFilesCmd() {
 		findCommand += "\"";
 	}
 	AddCommand(findCommand, props.GetString("find.directory"), jobCLI);
-	if (jobQueue.HasCommandToRun())
+	if (jobQueue.HasCommandToRun()) {
+		std::string findComment = props.GetString("find.directory");
+		findComment += " : FindInFilesCmd Execute\n";
+		OutputAppendStringSynchronised(findComment.c_str());
 		Execute();
+	}
 }
 
 void SciTEGTK::FindInFilesDotDot() {
@@ -2390,6 +2394,9 @@ void SciTEGTK::FindInFiles() {
 	std::string directory = props.GetString("find.in.directory");
 	if (directory.length()) {
 		findInDir = FilePath(directory.c_str());
+	}
+	if (memDirectory.Length() > 0) {
+		findInDir = FilePath(memDirectory.At(0).c_str());
 	}
 	props.Set("find.directory", findInDir.AsInternal());
 

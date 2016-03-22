@@ -4598,6 +4598,8 @@ void SciTEBase::ExecuteMacroCommand(const char *command) {
 	delete []string1;
 }
 
+int grep_main(int argc, char *argv[]);
+
 /**
  * Process all the command line arguments.
  * Arguments that start with '-' (also '/' on Windows) are switches or commands with
@@ -4629,6 +4631,32 @@ bool SciTEBase::ProcessCommandLine(GUI::gui_string &args, int phase) {
 				performPrint = true;
 			} else if (GUI::gui_string(arg) == GUI_TEXT("grep") && (wlArgs.size() - i >= 4)) {
 				// in form -grep [w~][c~][d~][b~] "<file-patterns>" "<search-string>"
+				#if 1
+				int n = 0;
+				char buf[1024];
+				int argc = 0;
+				char *argv[8] = { NULL, };
+
+				argv[argc++] = buf + n;
+				n += sprintf(buf + n, "%s", "grep");
+				buf[n++] = 0;
+
+				argv[argc++] = buf + n;
+				n += sprintf(buf + n, "%s", "-rn");
+				if (wlArgs[i+1][0] == 'w') buf[n++] = 'w';
+				if (wlArgs[i+1][1] != 'c') buf[n++] = 'i';
+				buf[n++] = 0;
+
+				argv[argc++] = buf + n;
+				n += sprintf(buf + n, "%s", GUI::UTF8FromString(wlArgs[i+3].c_str()).c_str());
+				buf[n++] = 0;
+
+				argv[argc++] = buf + n;
+				n += sprintf(buf + n, "%s", FilePath::GetWorkingDirectory().AsInternal());
+				buf[n++] = 0;
+
+				grep_main(argc, argv);
+				#else
 				GrepFlags gf = grepStdOut;
 				if (wlArgs[i+1][0] == 'w')
 					gf = static_cast<GrepFlags>(gf | grepWholeWord);
@@ -4642,6 +4670,7 @@ bool SciTEBase::ProcessCommandLine(GUI::gui_string &args, int phase) {
 				std::string unquoted = UnSlashString(sSearch.c_str());
 				sptr_t originalEnd = 0;
 				InternalGrep(gf, FilePath::GetWorkingDirectory().AsInternal(), wlArgs[i+2].c_str(), unquoted.c_str(), originalEnd);
+				#endif
 				exit(0);
 			} else {
 				if (AfterName(arg) == ':') {

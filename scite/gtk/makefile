@@ -110,6 +110,7 @@ deps:
 COMPLIB=../../scintilla/bin/scintilla.a
 
 $(PROG): SciTEGTK.o GUIGTK.o Widget.o \
+nbgrep_fastgrep.o nbgrep_file.o nbgrep_grep.o nbgrep_queue.o nbgrep_util.o \
 FilePath.o SciTEBase.o FileWorker.o Cookie.o Credits.o SciTEBuffers.o SciTEIO.o StringList.o \
 ExportHTML.o ExportPDF.o ExportRTF.o ExportTEX.o ExportXML.o \
 MatchMarker.o StringHelpers.o \
